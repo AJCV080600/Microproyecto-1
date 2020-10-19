@@ -4,7 +4,6 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     letter-spacing: 1.5px;
-    text-align: center;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -139,4 +138,17 @@ ul.carrusel_cursor li a {
     text-align: center;
     margin: 10px;
     font-weight: bold;
+}
+/*Contact Me*/
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+}
+.form {
+    width: 300px;
+}
+.social ul{
+    width: 300px;
+    list-style-type: none;
+    text-decoration: none;
 }

@@ -14,3 +14,16 @@ escribir(document.getElementById("text2"),1);
 escribir(document.getElementById("text3"),2);
 escribir(document.getElementById("text4"),3);
 escribir(document.getElementById("text5"),4);
+
+let send = document.getElementById("boton");
+send.addEventListener("click", function(){
+    let name = document.getElementById("nombre");
+    let mail = document.getElementById("correo");
+    let msj = document.getElementById("msj");
+    if ((name.textContent==="") || (mail.textContent==="") || (msj.textContent==="")) {
+        alert("Uno o más campos están vacíos");
+    }
+    else {
+        alert("Mensaje enviado ;)");
+    }
+})

@@ -124,3 +124,19 @@ ul.carrusel_cursor li a {
     background-color: #d30000;
     margin: 100px;
 }
+/*Skills*/
+.hab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    color: whitesmoke;
+    background-color: #d30000;
+    margin: 100px;
+}
+.text_s{
+    width: 500px;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}

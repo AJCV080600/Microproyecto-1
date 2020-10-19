@@ -114,3 +114,13 @@ ul.carrusel_cursor li a {
     width: 320px;
     height: 320px;
 }
+/*Experience*/
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    color: whitesmoke;
+    background-color: #d30000;
+    margin: 100px;
+}
